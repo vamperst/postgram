@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3fc57bb83",
+  "policyUUID": "fc57bb83",
+  "bucketName": "postagrama6f8c0f7534745af827924dc000cf15d",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

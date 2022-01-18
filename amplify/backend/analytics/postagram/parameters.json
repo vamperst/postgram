@@ -1,0 +1,21 @@
+{
+    "appName": "postagram",
+    "roleName": "pinpointLambdaRolefbfaf1c6",
+    "cloudformationPolicyName": "cloudformationPolicyfbfaf1c6",
+    "cloudWatchPolicyName": "cloudWatchPolicyfbfaf1c6",
+    "pinpointPolicyName": "pinpointPolicyfbfaf1c6",
+    "authPolicyName": "pinpoint_amplify_fbfaf1c6",
+    "unauthPolicyName": "pinpoint_amplify_fbfaf1c6",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
